@@ -1,0 +1,90 @@
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans', Arial, sans-serif;
+  background-color: rgb(20, 20, 20);
+  color: rgb(85, 117, 117);
+  margin: 2%;
+  padding: 0%;
+  display: flex;
+  
+}
+header, footer{
+    background-color: rgb(226, 190, 177);
+    color:rgb(35, 61, 61);
+    margin: auto;
+    padding: 1%;
+    font-size: 3vmin;
+}
+main{
+    background-color: rgb(170, 161, 158);
+    color:rgb(36, 30, 30);
+    margin: auto;
+    padding: 1%;
+}
+nav {
+    background-color: rgb(20,20,20);
+    border: none;
+    color:rgb(70, 67, 77);
+    margin: 1%;
+    padding: 1%;
+    text-decoration: none;
+
+}
+
+nav a, button{
+    
+    background-color: rgb(105, 138, 138);
+    border: 1px solid;
+    color:rgb(70, 67, 77);
+    margin: 2% 1%;
+    padding: 1%;
+    text-decoration: none;
+    font-size: 3vmin;
+}
+
+nav a:hover, button:hover{
+    background-color: rgb(70, 67, 77);
+    border: 1px solid;
+    color:rgb(105, 138, 138);
+    margin: 2% 1%;
+    padding: 1%;
+    text-decoration: none;
+}
+
+table{
+  border-spacing: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+tr th, tr td {
+  border: 1px solid rgb(48, 42,35);
+  color: rgb(48, 42, 35);
+  padding: 1vmin;
+  font-size: 3vmin;
+
+}
+
+label{
+  display: block;
+  font-size: 3vmin;
+  padding: 2% 0% 0% 0%;
+
+}
+
+input select{
+  font-size: 3vmin;
+  padding: 1%;
+  
+
+}
+
+
